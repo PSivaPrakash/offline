@@ -63,7 +63,7 @@ public class Ido {
 		Thread.sleep(1000);
 		
 		
-		// Clicking checkbox
+		// Clicking check box
 		WebElement consent = dr.findElement(By.xpath("/html/body/app-root/div/app-main/div/app-upload-file/div/div/div/form/div/div[4]/label/input"));
 		JavascriptExecutor executor = (JavascriptExecutor)dr;
 		executor.executeScript("arguments[0].click();", consent);
