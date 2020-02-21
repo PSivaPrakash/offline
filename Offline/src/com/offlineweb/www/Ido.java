@@ -78,7 +78,19 @@ public class Ido {
 		ClientCode2.sendKeys("Cl99");
 		WebElement FetchKYCData = dr.findElement(By.xpath("//*[@id=\"btn-pay\"]"));
 		FetchKYCData.click();
-
+		
+		
+		
+		if(dr.getPageSource().contains(""))
+		{
+			System.out.println("Text Present");
+		}
+		else
+		{
+			System.out.println("Text not Present");
+		}
+	
+      
 
 	}
 
